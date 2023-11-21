@@ -30,7 +30,7 @@ def get_weather(api_key, city, country_code=''):
         return f'Error: Unable to retrieve weather data. Status Code: {response.status_code}'
 
 # Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
-api_key = '5606979ad780a6d23a27e0457af3edd0'
+api_key = ''
 city = 'Da Nang'
 country_code = "VN"
 
